@@ -3,4 +3,144 @@ body {
 	font-weight: 400;
 	font-size: 1.5rem;
 	color: $color-black-light;
+	text-transform: capitalize;
+}
+
+.secondary-heading {
+	font-family: "Montserrat", sans-serif;
+	font-size: 3.6rem;
+	font-weight: 800;
+	color: $color-black-dark;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.tertiary-heading {
+	font-size: 2.4rem;
+	text-align: center;
+}
+
+.header__logo {
+	a {
+		font-family: "Montserrat", sans-serif;
+		font-size: 4rem;
+		font-weight: 800;
+		text-decoration: none;
+		color: $color-white;
+
+		&:hover {
+			color: $color-primary;
+		}
+	}
+}
+
+.header__navigation {
+	ul {
+		li {
+			a {
+				text-decoration: none;
+				color: $color-white;
+
+				&:hover {
+					color: $color-primary;
+				}
+			}
+
+			&:last-child {
+				a:hover {
+					color: $color-white;
+				}
+			}
+		}
+	}
+}
+
+.hero__sub-heading {
+	color: $color-primary-light;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.8rem;
+	font-weight: 800;
+	text-transform: capitalize;
+	margin-bottom: 1rem;
+}
+
+.hero__primary-heading {
+	font-family: "Montserrat", sans-serif;
+	font-size: 8rem;
+	font-weight: 800;
+	color: $color-white;
+	margin-bottom: 1rem;
+}
+
+.hero__text {
+	color: $color-white;
+	font-size: 1.6rem;
+	margin-bottom: 5rem;
+}
+
+a.hero__button {
+	text-decoration: none;
+	color: $color-white;
+	font-size: 1.6rem;
+}
+
+.tools {
+	&__detail-box {
+		h4 {
+			font-family: "Montserrat", sans-serif;
+			font-size: 8rem;
+			font-weight: 800;
+			color: $color-black-light;
+		}
+
+		h3 {
+			font-family: "Montserrat", sans-serif;
+			font-size: 2rem;
+			font-weight: 800;
+			color: $color-black-dark;
+		}
+
+		p {
+			font-size: 2rem;
+		}
+	}
+}
+
+.strategy {
+	&__card {
+		h3 {
+			font-family: "Montserrat", sans-serif;
+			font-size: 2rem;
+			font-weight: 800;
+			color: $color-black-dark;
+			margin-bottom: 1rem;
+		}
+
+		p {
+			font-size: 1.8rem;
+			text-transform: initial;
+		}
+	}
+}
+
+.section-contact {
+	.secondary-heading {
+		color: $color-white;
+	}
+
+	.tertiary-heading {
+		color: $color-primary-light;
+	}
+}
+
+.contact {
+	&__box,
+	&__message {
+		h3 {
+			color: $color-primary-light;
+		}
+		p {
+			color: $color-white;
+		}
+	}
 }

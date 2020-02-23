@@ -5,9 +5,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BabatAlas Studio</title>
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C%7CMontserrat%3A800%2C&amp;display=fallback&amp;ver=2.3.1" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__row">
+            <div class="header__logo">
+                <a href="index.html">{babatAlas}</a>
+            </div>
+            <nav class="header__navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#tools">Tool</a></li>
+                    <li><a href="#strategy">Strategy</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="https://github.com/babatalas" target="_blank">Github Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="hero__row">
+                <div class="hero__left-col">
+                    <h3 class="hero__sub-heading">Hacktiv8 Student</h3>
+                    <h1 class="hero__primary-heading">Eko Prasetyo</h1>
+                    <span class="seperator-line"></span>
+                    <p class="hero__text">It's a long way to the top if you wanna rock 'n' roll - AC/DC</p>
+                    <a href="blog.html" class="hero__button">Read my blog</a>
+                    <p class="hero__warning">
+                        Notice: Use the latest version of Google Chrome and monitor with resolution more than 1200 pixels to get best view of this website.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="tools" class="section-tools">
+            <div class="tools-row">
+                <h3 class="tertiary-heading">Tools and Technologies</h3>
+                <h2 class="secondary-heading">What I Use</h2>
+                <div class="tools__item">
+                    <figure class="tools__col-img">
+                        <img class="tools__img" src="img/030-html-5.png" alt="HTML logo">
+                    </figure>
+                    <div class="tools__detail-box">
+                        <h4>#1</h4>
+                        <h3>Hypertext Markup Language</h3>
+                        <p>HTML stands for Hyper Text Markup Language. HTML is the standard are the building blocks of HTML pages.</p>
+                        <a href="https://www.w3schools.com/whatis/whatis_html.asp" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="tools__item">
+                    <figure class="tools__col-img">
+                        <img class="tools__img" src="img/031-css.png" alt="CSS logo">
+                    </figure>
+                    <div class="tools__detail-box">
+                        <h4>#2</h4>
+                        <h3>Cascading Style Sheets</h3>
+                        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in amarkup language like HTML.</p>
+                        <a href="https://www.w3schools.com/whatis/whatis_css.asp" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="tools__item">
+                    <figure class="tools__col-img">
+                        <img class="tools__img" src="img/010-github.png" alt="Github logo">
+                    </figure>
+                    <div class="tools__detail-box">
+                        <h4>#3</h4>
+                        <h3>GitHub</h3>
+                        <p>GitHub is a website and service that we hear geeks rave about all the time, yet a lot of people don't really understand what it does.</p>
+                        <a href="https://www.w3schools.com/whatis/whatis_github.asp" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="strategy" class="section-strategy">
+            <div class="strategy-wrap">
+                <h3 class="tertiary-heading">A good deveveloper</h3>
+                <h2 class="secondary-heading">What Is My Strategy</h2>
+                <div class="strategy-row">
+                    <div class="strategy__card">
+                        <img class="strategy__icon" src="./img/clock-with-white-face.png" alt="watch icon">
+                        <h3>Time Management</h3>
+                        <p>Use all my free time to self improve with reading resource or practice coding</p>
+                    </div>
+                    <div class="strategy__card">
+                        <img class="strategy__icon" src="./img/man-walking-directions-button.png" alt="watch icon">
+                        <h3>Stay Healhty</h3>
+                        <p>Although study is important. Having a good sleep and eat well is number one priority.
+                            Also I have to walk 2 km everyday.
+                        </p>
+                    </div>
+                    <div class="strategy__card">
+                        <img class="strategy__icon" src="./img/turn-airplane-mode-off.png" alt="airplain mode icon">
+                        <h3>Turn Off Gadget</h3>
+                        <p>Stay away from my smartphone. Make it silent. Sign out from social media account.</p>
+                    </div>
+                    <div class="strategy__card">
+                        <img class="strategy__icon" src="./img/create-group-button.png" alt="grup people icon">
+                        <h3>Connect With People</h3>
+                        <p>For me the best way to improve my coding skill is always connect with other developer. No matter 
+                            they are senior or junior.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="gallery" class="section-gallery">
+            <h2 class="secondary-heading u-text-center">Other tools and software</h2>
+            <div class="gallery">
+                <img src="img/030-html-5.png" alt="html logo" class="gallery__img">
+                <img src="img/031-css.png" alt="css logo" class="gallery__img">
+                <img src="img/029-javascript.png" alt="JS logo" class="gallery__img">
+                <img src="img/032-nodejs.png" alt="NodeJS logo" class="gallery__img">
+                <img src="img/026-sass.png" alt="Sass logo" class="gallery__img">
+                <img src="img/010-github.png" alt="Github logo" class="gallery__img">
+            </div>
+        </section>
+
+        <section id="contact" class="section-contact">
+            <h3 class="tertiary-heading u-text-center">Get In Touch</h3>
+            <h2 class="secondary-heading u-text-center">Contact Me</h2>
+            <div class="contact">
+                <div class="contact__col-left">
+                    <div class="contact__box">
+                        <h3>Phone Number</h3>
+                        <p>+6213-9127-9666</p>
+                    </div>
+                    <div class="contact__box">
+                        <h3>E-mail</h3>
+                        <p>ekoprasetyo.me@gmail.com</p>
+                    </div>
+                    <div class="contact__box">
+                        <h3>Address</h3>
+                        <p>Jl. Sultan Iskandar Muda No.7, </p>
+                        <p>Kby. Lama Sel., Kec. Kby. Lama, Kota Jakarta Selatan,</p>   
+                        <p>Daerah Khusus Ibukota Jakarta 12240</p>
+                    </div>
+                </div>
+                <div class="contact__col-right">
+                    <div class="contact__message">
+                        <h3>What Next?</h3>
+                        <p>Sign Up for My Weekly Newsletters</p>
+                        <form class="subscribe" action="#" method="get">
+                            <input class="subscribe--email" type="email" placeholder="Enter Email Address" required>
+                            <button class="btn-subs" type="submit">Subscribe</button> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <iframe style="width: 100%;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0229024020855!2d106.77942751539246!3d-6.260713363038956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1a8713ce207%3A0x2c3ea1f4a28bfac5!2sHacktiv8!5e0!3m2!1sid!2sus!4v1582461366398!5m2!1sid!2sus"
+             height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </main>
+    <footer class="footer">
+        <p>Copyright 2020 - Eko Prasetyo | <a href="credits.html" target="_blank" rel="noopener noreferrer">Credits</a></p> 
+    </footer>
 </body>
 </html>

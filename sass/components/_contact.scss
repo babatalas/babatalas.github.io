@@ -1,0 +1,55 @@
+.contact {
+	display: flex;
+	max-width: 120rem;
+	padding: 0 3rem;
+	justify-content: center;
+	margin: 0 auto;
+
+	&__col-left {
+		display: flex;
+		width: 50%;
+		padding-top: 5rem;
+		flex-wrap: wrap;
+	}
+
+	&__col-right {
+		width: 50%;
+		display: flex;
+		padding-top: 5rem;
+		justify-content: flex-end;
+		text-align: right;
+	}
+
+	&__box {
+		width: 50%;
+
+		&:not(:last-child) {
+			margin-bottom: 3rem;
+		}
+	}
+
+	&__message {
+		width: 100%;
+	}
+}
+
+.subscribe {
+	display: flex;
+	flex-direction: column;
+
+	&--email {
+		width: 70%;
+		height: 4rem;
+		margin: 1.5rem 0;
+		margin-left: auto;
+		padding-left: 2rem;
+	}
+}
+
+.btn-subs {
+	width: 20rem;
+	padding: 1rem;
+	margin-left: auto;
+	background-color: $color-primary-light;
+	border: 0;
+}

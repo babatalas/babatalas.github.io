@@ -1,0 +1,13 @@
+.hero__button {
+	padding: 1rem 2rem;
+	border: .2rem solid $color-primary;
+	background-color: $color-primary;
+	border-radius: 5rem;
+	margin-bottom: 15rem;
+	display: inline-block;
+
+	&:hover {
+		background-color: $color-primary-dark;
+		border: .2rem solid $color-primary-dark;
+	}
+}

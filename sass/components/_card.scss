@@ -1,0 +1,21 @@
+.strategy {
+	&__card {
+		width: 30rem;
+		padding: 2rem 1.5rem;
+		background-color: $color-white;
+		text-align: center;
+		box-shadow: 0 1.5rem 4rem rgba($color-black-dark, .15);
+		border-radius: 3px;
+
+		&:not(:last-child) {
+			margin-right: 2rem;
+		}
+	}
+
+	&__icon {
+		width: 10rem;
+		&--1 {
+			background-image: url(../img/clock-with-white-face.png);
+		}
+	}
+}

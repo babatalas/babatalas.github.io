@@ -9,11 +9,17 @@
 
 @import "layout/navigation";
 @import "layout/grid";
-@import "layout/header";
+@import 'layout/header';
 @import "layout/footer";
 @import "layout/sidebar";
 @import "layout/forms";
 
+@import "components/card";
 @import "components/buttons";
+@import "components/gallery";
+@import "components/contact";
 
 @import "pages/home";
+@import "pages/credits";
+
+@import "utilities/font";
